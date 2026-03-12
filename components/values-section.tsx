@@ -18,7 +18,7 @@ export function ValuesSection() {
     },
     {
       icon: Handshake,
-      title: "GARANTIA",
+      title: "GARANTÍA",
       subtitle: "Comprá tranquilo",
       description:
         "Respaldamos lo que vendemos. Si surge algún inconveniente, estamos aquí para responder y solucionarlo. No desaparecemos.",
