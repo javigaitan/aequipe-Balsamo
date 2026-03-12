@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Aequipe - Repuestos Renault | Más de 25 años de experiencia",
   description:
     "Especialistas en repuestos adaptables para vehículos Renault. Más de 25 años de experiencia, +600 distribuidores y +8000 referencias en toda Argentina.",
-  generator: "v0.app",
+  generator: "Gaitan Javier Emanuel",
   keywords: ["Aequipe", "repuestos Renault", "autopartes", "Argentina", "repuestos adaptables"],
   icons: {
     icon: [

@@ -65,11 +65,11 @@ export function HeroSection() {
               transition={{ duration: 0.8 }}
             >
 
-              <h1 className="text-8xl lg:text-9xl font-heading font-bold uppercase tracking-tight text-[#1f97ab] mt-8 mb-16 whitespace-pre-line leading-[0.95]">
+              <h1 className="text-8xl lg:text-9xl font-heading font-bold uppercase tracking-normal text-[#1f97ab] mt-8 mb-16 whitespace-pre-line leading-[0.95]">
                 {slide.title}
               </h1>
 
-              <p className="text-xl lg:text-2xl font-sans text-slate-600 max-w-xl whitespace-pre-line">
+              <p className="text-xl lg:text-3xl font-sans text-slate-600 max-w-xl whitespace-pre-line">
                 {slide.text}
               </p>
 
