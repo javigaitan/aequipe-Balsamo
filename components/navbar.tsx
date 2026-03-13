@@ -44,24 +44,17 @@ export function Navbar() {
             >
               FAMILIA
             </Link>
-            <Link
-              href="/"
-              className=" cursor-pointer text-white hover:text-[#F7E95E] transition-colors text-3xl font-bold"
-            >
-              PRODUCTOS
-            </Link>
-          </div>
-          
-
-          {/* CTA Button */}
-          <div className="hidden md:block">
             <Button
               asChild
               className="bg-[#1f97ab] hover:bg-[#F7E95E] hover:text[#1f97ab] text-3xl cursor-pointer text-white hover:text-slate-900 font-bold transition-colors"
             >
               <Link href="#contacto">CONTACTANOS</Link>
             </Button>
+            
           </div>
+          
+
+          
 
           {/* Mobile Menu Button */}
           <button
@@ -91,13 +84,7 @@ export function Navbar() {
               >
                 Familia
               </Link>
-              <Link
-                href="#productos"
-                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-wide text-white hover:text-[#F7E95E] transition-colors py-2"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Productos
-              </Link>
+            
               <Button
                 asChild
                 className="cursor-pointer font-heading  text-4xl uppercase tracking-wide bg-[#F7E95E] hover:bg-[#1f97ab] text-{#1f97ab} hover:text-slate-900 transition-colors"

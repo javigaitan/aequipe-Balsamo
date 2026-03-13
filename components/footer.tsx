@@ -4,10 +4,12 @@ import { motion } from "framer-motion"
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from "lucide-react"
 
 const brandLogos = [
+  { name: "Aequipe", src: "/images/marca-aequipe.png" },
+  { name: "Kreisen", src: "/images/marca-kreisen.png" },
   { name: "Tajiro", src: "/images/marca-tajiro.png" },
   { name: "Oxion", src: "/images/marca-oxion.png" },
-  { name: "Kreisen", src: "/images/marca-kreisen.png" },
-  { name: "Aequipe", src: "/images/logoaequipe.png" },
+  
+  
 ]
 
 const socialLinks = [
@@ -85,7 +87,6 @@ export function Footer() {
             <div className="space-y-2">
               {[
                 { name: "Nosotros", href: "#nosotros" },
-                { name: "Productos", href: "#productos" },
                 { name: "Familia", href: "#familia" },
                 { name: "Contacto", href: "#contacto" },
                 { name: "Términos y Condiciones", href: "#terms" },

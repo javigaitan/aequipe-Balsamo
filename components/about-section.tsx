@@ -33,7 +33,7 @@ export function AboutSection() {
 
           {/* Right Column - Image */}
           <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
-            <Image src="/images/fabrica.jpeg" alt="Fábrica Balsamo Repuestos - Aequipe" fill className="object-cover" />
+            <Image src="/images/AEQUIPE-ABOUT.jpeg" alt="Fábrica Balsamo Repuestos - Aequipe" fill className="object-cover" />
           </div>
         </div>
       </div>

@@ -69,7 +69,7 @@ export function HeroSection() {
                 {slide.title}
               </h1>
 
-              <p className="text-xl lg:text-3xl font-sans text-slate-600 max-w-xl whitespace-pre-line">
+              <p className="text-xl lg:text-3xl font-sans text-slate-600 max-w-3xl whitespace-pre-line">
                 {slide.text}
               </p>
 
