@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from "lucide-react"
+import { MapPin, Phone, Mail, Facebook, Instagram, } from "lucide-react"
 
 const brandLogos = [
   { name: "Aequipe", src: "/images/marca-aequipe.png" },
@@ -16,13 +16,13 @@ const socialLinks = [
   {
     name: "Facebook",
     icon: Facebook,
-    href: "https://www.facebook.com/balsamosa/?locale=es_LA",
+    href: "https://www.facebook.com/aequiperepuestos/?locale=es_LA",
     color: "hover:text-blue-600",
   },
   {
     name: "Instagram",
     icon: Instagram,
-    href: "https://www.instagram.com/balsamosa/?hl=es",
+    href: "https://www.instagram.com/aequiperepuestos/?hl=es",
     color: "hover:text-pink-600",
   },
   
@@ -60,7 +60,7 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-[#FFD700] mt-0.5 flex-shrink-0" />
                 <div className="text-slate-300 text-lg">
-                  <p>Buenos Aires</p>
+                  <p>Córdoba</p>
                   <p>Argentina</p>
                 </div>
               </div>
@@ -89,8 +89,7 @@ export function Footer() {
                 { name: "Nosotros", href: "#nosotros" },
                 { name: "Familia", href: "#familia" },
                 { name: "Contacto", href: "#contacto" },
-                { name: "Términos y Condiciones", href: "#terms" },
-                { name: "Política de Privacidad", href: "#privacy" },
+                
               ].map((link) => (
                 <motion.a
                   key={link.name}
@@ -166,7 +165,7 @@ export function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-slate-400 text-lg text-center md:text-left">
-              <p>&copy; 2025 Aequipe. Todos los derechos reservados.</p>
+              <p>&copy; 2026 Aequipe. Todos los derechos reservados.</p>
             </div>
 
             {/* Signature */}

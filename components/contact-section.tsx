@@ -131,7 +131,7 @@ export function ContactSection() {
                 {
                   icon: Mail,
                   title: "Email",
-                  content: "ventas@balsamo.com.ar | rrhh@balsamo.com.ar",
+                  content: "info@aequipe.com.ar",
                 },
                 {
                   icon: Clock,
