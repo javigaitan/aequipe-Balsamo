@@ -66,11 +66,11 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-[#FFD700] flex-shrink-0" />
-                <span className="text-slate-300 text-lg">+54 11 1234-5678</span>
+                <span className="text-slate-300 text-lg">+54 351 492 9000</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-[#FFD700] flex-shrink-0" />
-                <span className="text-slate-300 text-lg">info@aequipe.com.ar</span>
+                <span className="text-slate-300 text-lg">balsamo@balsamo.com.ar</span>
               </div>
             </div>
           </motion.div>
