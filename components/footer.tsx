@@ -87,7 +87,7 @@ export function Footer() {
             <div className="space-y-2">
               {[
                 { name: "Nosotros", href: "#nosotros" },
-                { name: "Familia", href: "#familia" },
+                { name: "Familias", href: "#familia" },
                 { name: "Contacto", href: "#contacto" },
                 
               ].map((link) => (

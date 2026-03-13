@@ -42,7 +42,7 @@ export function Navbar() {
               href="#familia"
               className=" cursor-pointer text-white hover:text-[#F7E95E] transition-colors text-3xl font-bold"
             >
-              FAMILIA
+              FAMILIAS
             </Link>
             <Button
               asChild
@@ -82,7 +82,7 @@ export function Navbar() {
                 className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-wide text-white hover:text-[#F7E95E] transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Familia
+                Familias
               </Link>
             
               <Button
