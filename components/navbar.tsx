@@ -79,28 +79,28 @@ export function Navbar() {
             <div className="flex flex-col gap-4">
               <Link
                 href="#nosotros"
-                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-normal text-white hover:text-[#F7E95E] transition-colors py-2"
+                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-wide text-white hover:text-[#F7E95E] transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Nosotros
               </Link>
               <Link
                 href="#familia"
-                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-normal text-white hover:text-[#F7E95E] transition-colors py-2"
+                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-wide text-white hover:text-[#F7E95E] transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Familia
               </Link>
               <Link
                 href="#productos"
-                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-normal text-white hover:text-[#F7E95E] transition-colors py-2"
+                className="cursor-pointer font-heading font-bold text-2xl uppercase tracking-wide text-white hover:text-[#F7E95E] transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Productos
               </Link>
               <Button
                 asChild
-                className="cursor-pointer font-heading  text-4xl uppercase tracking-normal bg-[#F7E95E] hover:bg-[#1f97ab] text-{#1f97ab} hover:text-slate-900 transition-colors"
+                className="cursor-pointer font-heading  text-4xl uppercase tracking-wide bg-[#F7E95E] hover:bg-[#1f97ab] text-{#1f97ab} hover:text-slate-900 transition-colors"
               >
                 <Link href="#contacto" onClick={() => setIsMobileMenuOpen(false)}>
                   Contactanos
