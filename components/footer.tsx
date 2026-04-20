@@ -111,7 +111,7 @@ export function Footer() {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <h3 className="text-xl font-semibold text-white mb-4 uppercase">Síguenos</h3>
+            <h3 className="text-xl font-semibold text-white mb-4 uppercase">Seguinos</h3>
             <div className="flex space-x-4 mb-6">
               {socialLinks.map((social) => {
                 const Icon = social.icon
