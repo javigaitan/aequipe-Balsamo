@@ -15,6 +15,7 @@ import emailjs from "@emailjs/browser"
 type FormType = "customer" | "company"
 
 interface CustomerFormData {
+  from_name:string
   name: string
   email: string
   phone: string
@@ -127,6 +128,7 @@ const onSubmitCompany = async (data: CompanyFormData) => {
       { 
         ...data, 
         form_type: "Empresa"
+        from_name: "Aequipe"
       },
       process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
     )
